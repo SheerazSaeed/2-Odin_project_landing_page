@@ -8,9 +8,12 @@ body {
     
 }
 
-.subtext {}
 
 header {padding-top: 16px; }
+
+.top_image {
+    
+    width: 500px; height:250px;}
 
 .header {
 
@@ -39,7 +42,9 @@ ul {
     color:#F9FAF8   
 }
 
-.container_one { padding: 0px 128px 128px 128px}
+.container_one { 
+    
+    padding: 0px 128px 128px 128px}
 
 .footer {
 
@@ -68,12 +73,15 @@ img {width: 75%; height: auto;}
 button { 
     
     background-color: #3882F6;
-    padding: 12px;
+    padding: 18px;
     border-radius: 12px;
+    border-color: white;
     color: #E5E7EB;
     font-weight: bolder;
-
+    
 }
+
+
 
 .h1 {
 
@@ -105,5 +113,17 @@ button {
 
 .container_five {
 
-    padding: 86px;
+    padding: 60px 30px 60px 60px;
+    border-radius: 15px;
+    margin: 100px 150px 100px 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;     
+}
+
+.button2 {
+
+    display: flex;
+    justify-content:space-around;
+
+
 }
